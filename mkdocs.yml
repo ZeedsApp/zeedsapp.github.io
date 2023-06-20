@@ -1,1 +1,3 @@
 site_name: Documentation about everything tech related for Zeeds
+theme:
+  name: material
