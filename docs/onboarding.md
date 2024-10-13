@@ -182,7 +182,8 @@ To start with you need to update the version number of the mobile repository in 
 
 
 
-
+## RevenueCat integration
+Revenuecat is a third partyy softaware used to make it easier for us to handle purchases. To create a new purchase(like a course) you first create a non-consumable in app store connect add all the values and save it then in revenuecat import the purchase to revenuecat and attach it to the correct offering and then it is usable.
 
 
 
