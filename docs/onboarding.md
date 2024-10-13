@@ -177,7 +177,8 @@ With the local instances of the cloud functions and the mobile application runni
 
 
 
-
+## Publishing a new version of the app. 
+To start with you need to update the version number of the mobile repository in the package-lock.json file and the package.json file. During this you should also update the version number as it exists in the frontend code to the in animatedsplashview.tsx and profile.tsx(previously this was possible to do using the config file but that has not worked since 2.7.9). These changes should be included in the merge request for your new project. once they have been merged you pull them to the repository you are working in using the terminal and the command git pull. after that you use the command eas build --platform ios to create a new build in expo dev and then you use the eas submit --platform ios. After that the app has been updated and is ready to be released for testflight.
 
 
 
