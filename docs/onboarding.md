@@ -1,3 +1,5 @@
+
+
 # Onboarding new developers
 
 A full-stack developer needs to get familiar with three systems used in the Zeeds ecosystem.
@@ -5,6 +7,8 @@ A full-stack developer needs to get familiar with three systems used in the Zeed
 - Psychologist portal
 - Cloud functions
 - Mobile application
+
+  Start by installing the docker hasura repository
 
 
 
